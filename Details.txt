@@ -1,0 +1,32 @@
+MERN please use this to submit your proposal. 
+
+
+Description of project: Github link for project: 
+My Project is a Movie Review Site, I will use the TMDB api to get access to movies and users will be able to leave reviews and see other reviews. 
+	
+	https://github.com/thomas-caines/Movies_4_Us
+
+
+Will you have a gitignore? 
+yes
+
+
+How will you implement full CRUD? 
+I will have full CRUD for the Users and the Reviews themselves 
+
+
+What are your validations for create and update? 
+I will have min and max length as well as passwords matching and email validations
+
+
+What are your stretch goals if any? 
+Protected routes 
+Third party api 
+react bootstrap
+Login and Reg
+
+
+Please include a copy (image or hyperlink) for your wireframe.
+
+
+
