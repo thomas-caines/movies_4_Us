@@ -28,5 +28,13 @@ Login and Reg
 
 Please include a copy (image or hyperlink) for your wireframe.
 
+Api link 
+https://www.themoviedb.org/settings/api
+
+Api Key
+35ec00dcbaae42955c3041d6d1296b4c
+
+Api read access token
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNWVjMDBkY2JhYWU0Mjk1NWMzMDQxZDZkMTI5NmI0YyIsInN1YiI6IjY2NzMyMmRjYWNiYTRiYTlhYWQ4MDRiYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.7uSYwcK49_DRD7BQoiJPGdLP3CiIJ9-lbY43WoE-tNQ
 
 
