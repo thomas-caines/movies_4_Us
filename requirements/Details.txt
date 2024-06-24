@@ -30,7 +30,7 @@ Please include a copy (image or hyperlink) for your wireframe.
 
 Api link 
 https://www.themoviedb.org/settings/api
-
+https://developer.themoviedb.org/reference/movie-images
 Api Key
 35ec00dcbaae42955c3041d6d1296b4c
 
