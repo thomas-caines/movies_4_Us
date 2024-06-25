@@ -39,12 +39,12 @@ export function MovieDisplay() {
 
             <Container className="MovieContainer">
                 <Row>
-                    <Col>
+                    <Col className="movie_Right">
                         <h1> {movie.title} </h1>
                         <h2> Rating {movie.vote_average}/10 </h2>
                         <p> {movie.overview} </p>
                     </Col>
-                    <Col>
+                    <Col className="movie_Left">
                        <Image src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} thumbnail />
                     </Col>
                 </Row>

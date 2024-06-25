@@ -5,9 +5,31 @@
   text-align: center;
 }
 
-.navbar {
-  border: 1px solid lightgrey;
+.Full_Container{
+  background-image: url(./assets/movies_4_Us_background.png);
+  /* background: linear-gradient(320deg, #454a4a, #858f8f, #cee0e0); */
+  border: 2px solid lightgrey;
   border-radius: 5px;
+  padding: 25px;
+}
+
+.navbar {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.3);
+  border: 1px solid #b6c7aa;
+  border-radius: 5px;
+  background-color: rgba(231, 212, 181, 0.7);
+}
+
+.navbar_brand {
+  font-family: 'monaco', monospace;
+  color: white;
+}
+
+.navbar_link {
+  font-family: 'monaco', monospace;
+  color: white;
 }
 
 .MovieCard_holder {
@@ -17,6 +39,9 @@
 }
 
 .MovieCard {
+  backdrop-filter: blur(5.5px);
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.3);
+
   width: 18rem;
   margin: 1rem;
   display: inline-block;
@@ -24,6 +49,7 @@
 
 .MovieCard_card {
   padding: 1rem;
+  background-color: rgba(231, 212, 181, 0.7);
 }
 
 .MovieCard_title {
@@ -31,20 +57,45 @@
   padding: 1rem;
   text-align: center;
   height: 4rem;
+  color: white;
 }
 
 .MovieCard_text {
   text-align: left;
-  border: 1px solid darkgray;
+  border: 1px solid #b6c7aa;
   border-radius: 5px;
   padding: 1rem;
 
 }
 
 .MovieContainer {
-  border: 1px solid lightgray;
-  padding: 1rem;
+  backdrop-filter: blur(5.5px);
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  background-color: rgba(231, 212, 181, 0.3);
+  border: 1px solid #b6c7aa;
+  border-radius: 5px;
+  padding: 2rem;
   margin: 1rem;
+  color: white;
+}
+
+.movie_Right {
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  border: 1px solid #b6c7aa;
+  border-radius: 5px;
+  background-color: rgba(231, 212, 181, 0.7);
+  padding: 1rem;
+}
+
+.movie_Right h1 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1rem;
+}
+
+.movie_Right p {
+  text-align: left;
+  border-top: 1px solid lightgray;
+  padding-top: 1rem;
 }
 
 .MovieCarousel {

@@ -9,14 +9,14 @@ export function Header() {
         <>
             <Navbar className='navbar'>
                 <Container>
-                    <Navbar.Brand>
+                    <Navbar.Brand className='navbar_brand'>
                         Movies 4 Us
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls='basic-navbar-nav' />
                     <Navbar.Collapse id='basic-navbar-nav'>
-                        <Nav className='me-auto'>
-                            <Nav.Link href="/home">Home</Nav.Link>
-                            <Nav.Link href="/movies">Movies</Nav.Link>
+                        <Nav>
+                            <Nav.Link className='navbar_link' href="/home">Home</Nav.Link>
+                            <Nav.Link className='navbar_link' href="/movies">Movies</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

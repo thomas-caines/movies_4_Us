@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { CarouselMovieOne } from './carouselmovies/CarouselMovieOne';
 import { CarouselMovieTwo } from './carouselmovies/CarouselMovieTwo';
