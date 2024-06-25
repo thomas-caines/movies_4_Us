@@ -7,7 +7,6 @@
 
 .Full_Container{
   background-image: url(./assets/movies_4_Us_background.png);
-  /* background: linear-gradient(320deg, #454a4a, #858f8f, #cee0e0); */
   border: 2px solid lightgrey;
   border-radius: 5px;
   padding: 25px;
